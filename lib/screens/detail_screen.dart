@@ -55,7 +55,9 @@ class _DetailScreenState extends State<DetailScreen> {
                     child: Text(
                       widget.listItem[2],
                       style: const TextStyle(
-                          color: Colors.white, fontWeight: FontWeight.bold),
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                          fontSize: 19),
                     ),
                   ),
                 ),
@@ -70,10 +72,10 @@ class _DetailScreenState extends State<DetailScreen> {
               child: Text(
                 widget.listItem[1],
                 style: const TextStyle(
-                    color: Colors.red,
+                    color: Colors.black,
                     fontWeight: FontWeight.bold,
-                    fontSize: 20,
-                    letterSpacing: 3),
+                    fontSize: 18,
+                    letterSpacing: 1.6),
               ),
             ),
           ),
